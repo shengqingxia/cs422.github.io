@@ -4,42 +4,47 @@
 
 == Basic Course Information  
 - Instructor:  [https://www.cs.purdue.edu/homes/chunyi/ Chunyi Peng] 
+- Assistant instructor: [mailto:xia170@purdue.edu Shengqing Xia]
 - Teaching Assistants: (please contact cs422-ta@cs.purdue.edu)
 	--  [mailto:xia170@purdue.edu Shengqing Xia] 
-    --  [mailto:huan1504@purdue.edu  Jingqi Huang]
+    --  [mailto:liu3098@purdue.edu  Yanbing Liu]
 - Lecture time: TR 4:30PM - 5:45PM
-- Location: LWSN B155
+- Location: LWSN 1142
 - Credit Hours: 3.00
 - Online tools 
 	-- [https://purdue.brightspace.com/ Brightspace]: offical grades only 
-	-- [https://www.gradescope.com/courses/936650 Gradescope]: homework/lab assignments 
-	-- [https://campuswire.com/p/GF2E523EE Campuswire]: Announcements, discussion and Q&A
+	-- [https://www.gradescope.com/courses/1080654 Gradescope]: homework/lab assignments 
+	-- [https://campuswire.com/p/G0BBE2336 Campuswire]: Announcements, discussion and Q&A
 	-- Lecture notes (below)
 - Practice study observation (PSO)
 	-- * No PSOs in the first week. *
-	-- Wed 16:30PM - 17:20PM, *ONLINE*, Shengqing Xia 
-	-- Thu 11:30AM - 12:20PM, HAAS 257, Shengqing Xia
-	-- Fri  9:30AM - 10:20AM, HAAS 257, Jingqi Huang
-- Office hours (Prof. Peng): Thur 13:30PM - 14:30PM  (or by appointment), [https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmY0ZTcwNjctYjYxZi00ODM5LWIzOTktNWNlNTAzMzAzMGYy%40thread.v2/0?context=%7b%22Tid%22%3a%224130bd39-7c53-419c-b1e5-8758d6d63f21%22%2c%22Oid%22%3a%225ada9c89-4ca9-4a4f-81d7-ee9ce9801655%22%7d Microsoft Teams] or DSAI 2142 (if you have access to DSAI)
-- *Spring break: March 17 - 22 (no lectures)*
-- *Distinguished Guest Lecture by [https://www-net.cs.umass.edu/personnel/kurose.html Prof. Jim Kurose]: April 3 *
-- *Midterm 1* (ch1 to ch3.4, in class): *4:30PM - 5:45PM Thur Feb 27*, LWSN B155
-- *Midterm 2* (ch3.5 to ch5, in class): *4:30PM - 5:45PM Thur 10*, LWSN B155
-- *Final* (cumulative, ch1 to ch7): *7:00PM - 9:00PM Wed May 7*, WTHR 172 
+	#-- Wed 16:30PM - 17:20PM, *ONLINE*, TBA 
+	-- Wed 16:30PM - 17:20PM, HAAS G050, TBA
+	-- Thu 11:30AM - 12:20PM, HAAS G050, TBA
+	-- Fri  9:30AM - 10:20AM, HAAS G050, TBA
+	- Office hours (Prof. Peng): TBA
+	#- Office hours (Prof. Peng): Thur 13:30PM - 14:30PM  (or by appointment), [https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmY0ZTcwNjctYjYxZi00ODM5LWIzOTktNWNlNTAzMzAzMGYy%40thread.v2/0?context=%7b%22Tid%22%3a%224130bd39-7c53-419c-b1e5-8758d6d63f21%22%2c%22Oid%22%3a%225ada9c89-4ca9-4a4f-81d7-ee9ce9801655%22%7d Microsoft Teams] or DSAI 2142 (if you have access to DSAI)
+- *Fall break: Oct 13 - 14 (no lectures)*
+- *Thanksgiving: Nov 27 - 30 (no lectures)*
+- *Midterm 1* (in class): *4:30PM - 5:45PM, Thur Oct 9 (tentative)*, LWSN 1142
+- *Midterm 2* (in class): *TBD*, LWSN 1142
+- *Final* (cumulative, ch1 to ch7): *TBD*
+
 
 == Lecture Notes (more to be added)
-- [./0-intro-cs422-sp25.pdf Course Introduction]([./0-intro-cs422-sp25.pptx slide]): Jan 14 
-- [./ch1-cs422-sp25.pdf Chapter 1]([./ch1-cs422-sp25.pptx slide]): Jan 14 - Jan 21 (Lab1 Due: *Jan 31*)
-- [./ch2-cs422-sp25.pdf Chapter 2]([./ch2-cs422-sp25.pptx slide]): Jan 21 - Feb 4 (Hw1 Due: *Feb 6*, Lab2 Due: *Feb 21*)
-- [./ch3-cs422-sp25.pdf Chapter 3]([./ch3-cs422-sp25.pptx slide]): Feb 6 - Feb 25 (Hw3 Due: *March 7*, Lab 3 Due: *March 21*)
-- [./ch4-cs422-sp25.pdf Chapter 4]([./ch4-cs422-sp25.pptx slide]): March 4 - March 11
-- [./ch5-cs422-sp25.pdf Chapter 5]([./ch5-cs422-sp25.pptx slide]): March 11 - March 27 (Hw4 Due: April 3)
-- *Distinguished Guest Lecture by Prof Jim Kurose: April 3*
+- Course Introduction ([./slides/0-intro-cs422-fa25.pptx slide]): Aug 26 
+#- [./slides/0-intro-cs422-sp25.pdf Course Introduction]([./0-intro-cs422-sp25.pptx slide]): Jan 14 
+#- [./ch1-cs422-sp25.pdf Chapter 1]([./ch1-cs422-sp25.pptx slide]): Jan 14 - Jan 21 (Lab1 Due: *Jan 31*)
+#- [./ch2-cs422-sp25.pdf Chapter 2]([./ch2-cs422-sp25.pptx slide]): Jan 21 - Feb 4 (Hw1 Due: *Feb 6*, Lab2 Due: *Feb 21*)
+#- [./ch3-cs422-sp25.pdf Chapter 3]([./ch3-cs422-sp25.pptx slide]): Feb 6 - Feb 25 (Hw3 Due: *March 7*, Lab 3 Due: *March 21*)
+#- [./ch4-cs422-sp25.pdf Chapter 4]([./ch4-cs422-sp25.pptx slide]): March 4 - March 11
+#- [./ch5-cs422-sp25.pdf Chapter 5]([./ch5-cs422-sp25.pptx slide]): March 11 - March 27 (Hw4 Due: April 3)
+#- *Distinguished Guest Lecture by Prof Jim Kurose: April 3*
 # - Mar 26  (Lab 4 Due: Apr 3, [hw4-sp24.pdf  Hw4] Due: Apr 5)
-- [./ch6-cs422-sp25.pdf Chapter 6]([./ch6-cs422-sp25.pptx slide]): April 1 - April 17  (Lab 4 Due: April 25, Hw5 Due: April 24)
-- [./ch7-cs422-sp25.pdf Chapter 7 ]([./ch7-cs422-sp25.pptx slide]): April 22 - April 29
-- [synthesis-cs422-sp25.pdf Putting them togeter] ([./synthesis-cs422-sp25.pptx slide]): April 29
-- [./review-final-cs422-sp25.pdf Review]: May 2
+#- [./ch6-cs422-sp25.pdf Chapter 6]([./ch6-cs422-sp25.pptx slide]): April 1 - April 17  (Lab 4 Due: April 25, Hw5 Due: April 24)
+#- [./ch7-cs422-sp25.pdf Chapter 7 ]([./ch7-cs422-sp25.pptx slide]): April 22 - April 29
+#- [synthesis-cs422-sp25.pdf Putting them togeter] ([./synthesis-cs422-sp25.pptx slide]): April 29
+#- [./review-final-cs422-sp25.pdf Review]: May 2
 
 == Contact US (cs422-ta@cs.purdue.edu)
 You are always welcome to contact us in person or online (at Campuswire). If you have questions about course materials, we encourage you to ask your questions online (which will be seen by other students). Of course, please feel free to ask questions before/after the class, at PSOs and via emails. 
@@ -83,12 +88,12 @@ cs422 is an undergraduate-level course in Computer Networks at the Department of
 
 == Grading Policy
 - Homework: 20%
-- Labs: 32% 
-	-- (Up to 40% with bonus parts)
-- Exam: 48% 
-	-- Midterm 1: 12%
-	-- Midterm 2: 12%
-	-- Final: 24%
+- Labs: 20% 
+- Exam: 55% 
+	-- Midterm 1: 15%
+	-- Midterm 2: 15%
+	-- Final: 25%
+- Participation: 5%	
 
 == Course Policy 
 
