@@ -128,7 +128,10 @@ h1, h2, h3 {
 	border-bottom: 1px solid #aaaaaa;
 }
 
+
+
 h1 {
+	padding-top: 40px;
 	font-size: 140%;
 }
 
