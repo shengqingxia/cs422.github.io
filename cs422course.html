@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CS422: Computer Networks (Fall 2025)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --purdue-gold:#CEB888; /* unofficial approximation */
+      --purdue-black:#000000;
+      --ink:#232323;
+      --muted:#6b7280;
+      --bg:#f7f7f7;
+      --card:#ffffff;
+      --accent:#111827;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);}
+    a{color:#0b63ce;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    header{
+      position:sticky;top:0;z-index:40;
+      background:var(--card);border-bottom:1px solid #e6e6e6;
+    }
+    .brand{display:flex;align-items:center;gap:14px;padding:14px 0}
+    .brand img{height:42px;width:auto;border-radius:6px;background:#fff;border:1px solid #eee}
+    .title h1{margin:0;font-size:1.4rem;font-weight:700;letter-spacing:.2px}
+    .subtitle{font-size:.95rem;color:#374151;margin-top:2px}
+    nav{display:flex;flex-wrap:wrap;gap:14px;padding:8px 0 16px}
+    nav a{font-weight:600;color:#111827;background:#f3f4f6;padding:8px 12px;border-radius:999px;border:1px solid #e5e7eb}
+    nav a:hover{background:#e5e7eb}
+
+    .hero{background:linear-gradient(180deg,#fff, #fafafa);border-bottom:1px solid #eee}
+    .hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;padding:28px 0}
+    .hero-card{background:var(--card);border:1px solid #ececec;border-radius:16px;padding:18px}
+    .kv{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .kv div{padding:10px 12px;border-radius:12px;background:#fafafa;border:1px solid #eee}
+    .kv div b{display:block;color:#111827;margin-bottom:4px}
+
+    section{padding:28px 0}
+    h2{font-size:1.25rem;margin:0 0 12px 0}
+    .card{background:var(--card);border:1px solid #ececec;border-radius:16px;padding:18px;margin-bottom:16px}
+    .grid{display:grid;gap:16px}
+    .grid-2{grid-template-columns:1fr 1fr}
+    .grid-3{grid-template-columns:repeat(3,1fr)}
+    @media (max-width: 900px){
+      .hero-inner{grid-template-columns:1fr}
+      .grid-2,.grid-3{grid-template-columns:1fr}
+    }
+    .list{margin:0;padding-left:18px}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;padding:.25rem .55rem;border-radius:999px;border:1px solid #e5e7eb;background:#f9fafb;font-size:.8rem;color:#111827}
+    .table{width:100%;border-collapse:separate;border-spacing:0 8px}
+    .table th{font-weight:700;text-align:left;font-size:.9rem;color:#111827}
+    .table td,.table th{padding:10px 12px;background:#fff;border:1px solid #ececec}
+    .table tr td:first-child,.table tr th:first-child{border-top-left-radius:10px;border-bottom-left-radius:10px}
+    .table tr td:last-child,.table tr th:last-child{border-top-right-radius:10px;border-bottom-right-radius:10px}
+    .callout{padding:12px 14px;border:1px dashed #cfcfcf;border-radius:12px;background:#fffef6}
+    footer{padding:24px 0 36px;color:#4b5563}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <!-- Replace src with official Purdue-mark asset you are allowed to use -->
+        <img src="assets/images/logo.png" alt="Purdue (placeholder icon)">
+        <div class="title">
+          <h1>CS422: Computer Networks (Fall 2025)</h1>
+          <div class="subtitle">Department of Computer Science · Purdue University</div>
+        </div>
+      </div>
+      <nav>
+        <!-- <a href="#info">Basic Info</a> -->
+        <a href="#tools">Online Tools</a>
+        <a href="#pso">PSO</a>
+        <a href="#office">Office Hours</a>
+        <a href="#calendar">Key Dates</a>
+        <a href="#notes">Lecture Notes</a>
+        <a href="#contact">Contact</a>
+        <a href="#desc">Description</a>
+        <a href="#grading">Grading</a>
+        <a href="#policy">Policies</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="container hero-inner">
+      <div class="hero-card">
+        <h2 id="info">Basic Course Information</h2>
+        <div class="kv">
+          <div><b>Instructor</b> Chunyi Peng</div>
+          <div><b>Credit Hours</b> 3.00</div>
+          <div><b>Lecture Time</b> TBA</div>
+          <div><b>Location</b> TBA</div>
+        </div>
+        <div style="margin-top:10px">
+          <b>Teaching Assistants</b> <span class="muted">(please contact <a href="mailto:cs422-ta@cs.purdue.edu">cs422-ta@cs.purdue.edu</a>)</span>
+          <ul class="list">
+            <li>Shengqing Xia</li>
+            <li>Yanbing Liu</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2 id="tools">Online Tools</h2>
+        <ul class="list">
+          <li><a href="https://purdue.brightspace.com/" target="_blank">Brightspace</a>: official grades only</li> 
+          <li><a href="https://www.gradescope.com/courses/1080654" target="_blank">Gradescope</a>: homework / lab submissions</li>  
+          <li><a href="https://campuswire.com/p/G0BBE2336" target="_blank">Campuswire</a>: announcements, discussion, and Q&amp;A</li>
+        </ul>
+        <div class="callout" style="margin-top:10px">
+          <b>Lecture notes</b> are listed below in the <a href="#notes">Lecture Notes</a> section.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <section id="pso" class="grid grid-2">
+      <div class="card">
+        <h2>Practice Study Observations (PSO)</h2>
+        <p><span class="pill">No PSOs in the first week</span></p>
+        <ul class="list">
+          <li>TBA, <b>TBA</b>, Shengqing Xia</li>
+          <li>TBA, <b>TBA</b>, Yanbing Liu</li>
+          <!-- <li>Wed 16:30–17:20, <b>ONLINE</b>, Shengqing Xia</li>
+          <li>Thu 11:30–12:20, <b>HAAS 257</b>, Shengqing Xia</li>
+          <li>Fri 9:30–10:20, <b>HAAS 257</b>, Jingqi Huang</li> -->
+        </ul>
+      </div>
+      <div class="card" id="office">
+        <h2>Office Hours</h2>
+        <ul class="list">
+          <li>TBA, <b>TBA</b>, Shengqing Xia</li>
+          <!-- <li>Thu 13:30–14:30 (or by appointment)</li>
+          <li>Microsoft Teams or DSAI 2142 (if you have access)</li> -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="calendar" class="grid grid-2">
+      <div class="card">
+        <h2>Key Dates</h2>
+        <table class="table">
+          <tbody>
+            <tr><td><b>Fall Break</b></td><td>Oct 13–14 (no lectures)</td></tr>
+            <!-- <tr><td><b>Guest Lecture</b></td><td>Prof. Jim Kurose — Apr 3</td></tr> -->
+            <tr><td><b>Midterm 1</b></td><td>Ch. 1 to 3.4 — Thu Feb 27, 4:30–5:45 PM, LWSN B155</td>
+            <tr><td><b>Midterm 2</b></td><td>Ch. 3.5 to 5 — Thu Apr 10, 4:30–5:45 PM, LWSN B155</td></tr>
+            <!-- <tr><td><b>Midterm 1</b></td><td>Ch. 1 to 3.4 — Thu Feb 27, 4:30–5:45 PM, LWSN B155</td></tr>
+            <tr><td><b>Midterm 2</b></td><td>Ch. 3.5 to 5 — Thu Apr 10, 4:30–5:45 PM, LWSN B155</td></tr>
+            <tr><td><b>Final Exam</b></td><td>Cumulative (Ch.1–7) — Wed May 7, 7:00–9:00 PM, WTHR 172</td></tr> -->
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Lectures & Milestones</h2>
+        <ul class="list">
+          <li>Course Introduction (slides): Jan 14</li>
+          <li>Chapter 1 (slides): Jan 14–21 <span class="muted">(Lab 1 Due: Jan 31)</span></li>
+          <li>Chapter 2 (slides): Jan 21–Feb 4 <span class="muted">(HW1 Due: Feb 6, Lab 2 Due: Feb 21)</span></li>
+          <li>Chapter 3 (slides): Feb 6–Feb 25 <span class="muted">(HW3 Due: Mar 7, Lab 3 Due: Mar 21)</span></li>
+          <li>Chapter 4 (slides): Mar 4–Mar 11</li>
+          <li>Chapter 5 (slides): Mar 11–Mar 27 <span class="muted">(HW4 Due: Apr 3)</span></li>
+          <li>Guest Lecture: Prof. Jim Kurose — Apr 3</li>
+          <li>Chapter 6 (slides): Apr 1–Apr 17 <span class="muted">(Lab 4 Due: Apr 25, HW5 Due: Apr 24)</span></li>
+          <li>Chapter 7 (slides): Apr 22–Apr 29</li>
+          <li>Putting It Together (slides): Apr 29</li>
+          <li>Review: May 2</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="desc" class="card">
+      <h2>Course Description</h2>
+      <p>
+        CS422 is an undergraduate-level course in Computer Networks at Purdue University. We study why and how to build the Internet—arguably the largest engineered system ever created. Taking a top-down approach, we cover core TCP/IP protocols across the Internet stack, networking principles, and the design trade-offs in today’s Internet as well as directions toward next-generation networks.
+      </p>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>Textbook</h2>
+        <ul class="list">
+          <li><b>Required:</b> <i>Computer Networking: A Top-Down Approach</i>, 8th Ed., J. F. Kurose & K. W. Ross (7th also acceptable)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Course Topics (tentative)</h2>
+        <ul class="list">
+          <li>Overview (Chapter 1)</li>
+          <li>Application (Chapter 2)</li>
+          <li>Transport (Chapter 3)</li>
+          <li>Networking (Chapters 4–5)</li>
+          <li>Link (Chapter 6)</li>
+          <li>Wireless (Chapter 7 + additional materials)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card" id="grading">
+        <h2>Grading Policy</h2>
+        <ul class="list">
+          <li>Homework: <b>20%</b></li>
+          <li>Labs: <b>25%</b> <span class="muted">(up to 40% with bonus parts)</span></li>
+          <li>Exams: <b>55%</b>
+            <ul class="list">
+              <li>Midterm 1: 15%</li>
+              <li>Midterm 2: 15%</li>
+              <li>Final: 25%</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="card" id="contact">
+        <h2>Contact Us <span class="pill">cs422-ta@cs.purdue.edu</span></h2>
+        <p>You are always welcome to reach out in person or on Campuswire. For course-related questions, we encourage posting online so others can benefit.</p>
+        <ul class="list">
+          <li>Email the TA list: <a href="mailto:cs422-ta@cs.purdue.edu">cs422-ta@cs.purdue.edu</a> (TAs and Prof. Peng receive it)</li>
+          <li>Prof. Peng only: <a href="mailto:chunyi@purdue.edu">chunyi@purdue.edu</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="notes" class="card">
+      <h2>Lecture Notes</h2>
+      <p class="muted">(More to be added)</p>
+      <ul class="list">
+        <li>Course Introduction (slides): Aug 25</li>
+        <!-- <li>Chapter 1 (slides): Jan 14–21</li>
+        <li>Chapter 2 (slides): Jan 21–Feb 4</li>
+        <li>Chapter 3 (slides): Feb 6–Feb 25</li>
+        <li>Chapter 4 (slides): Mar 4–Mar 11</li>
+        <li>Chapter 5 (slides): Mar 11–Mar 27</li>
+        <li>Guest Lecture: Prof. Jim Kurose — Apr 3</li>
+        <li>Chapter 6 (slides): Apr 1–Apr 17</li>
+        <li>Chapter 7 (slides): Apr 22–Apr 29</li>
+        <li>Putting them together (slides): Apr 29</li>
+        <li>Review: May 2</li> -->
+      </ul>
+    </section>
+
+    <section id="policy" class="card">
+      <h2>Course Policies (Highlights)</h2>
+      <h3>Attendance</h3>
+      <p>Students are expected to attend every class meeting. Only the instructor can excuse a student from a requirement. Please inform the instructor in advance for anticipated absences.</p>
+
+      <h3>Late Policy</h3>
+      <p>No partial credit for late work. Each student has <b>three</b> 24-hour grace days usable across homework or labs (in any combination). Notify TAs before using late days.</p>
+
+      <h3>Regrading</h3>
+      <p>Submit regrade requests in writing within two weeks of grade release. For labs, limited code changes may be allowed with a per-change penalty.</p>
+
+      <h3>Academic Integrity</h3>
+      <p>Follow Purdue’s academic integrity guidelines. No AI tools (e.g., ChatGPT) may be used in this course unless explicitly permitted. Discussing <i>general</i> solution strategies is allowed with proper disclosure; sharing or copying code or detailed solutions is prohibited. MOSS and manual inspection will be used. Violations may result in zeros and further penalties; the Dean of Students may be notified.</p>
+
+      <h3>Emergency</h3>
+      <p>In a campus-wide emergency, course logistics may change. Check the CS website for updates. For personal emergencies, contact Prof. Peng as soon as possible.</p>
+
+      <h3>Students with Disabilities</h3>
+      <p>If you require accommodations, meet with the instructor within the first three weeks and coordinate with the Disability Resource Center (DRC). Accommodations cannot be provided without DRC confirmation.</p>
+
+      <h3>Counseling</h3>
+      <p>Purdue CAPS provides counseling services for students experiencing stress or personal issues. Please see the CAPS website for details.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© 2025 Purdue University — CS422: Computer Networks</div>
+     
+    </div>
+  </footer>
+</body>
+</html>
