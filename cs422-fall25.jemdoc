@@ -1,0 +1,168 @@
+# jemdoc
+
+= CS422: Computer Networks (Spring 2025)
+
+== Basic Course Information  
+- Instructor:  [https://www.cs.purdue.edu/homes/chunyi/ Chunyi Peng] 
+- Teaching Assistants: (please contact cs422-ta@cs.purdue.edu)
+	--  [mailto:xia170@purdue.edu Shengqing Xia] 
+    --  [mailto:huan1504@purdue.edu  Jingqi Huang]
+- Lecture time: TR 4:30PM - 5:45PM
+- Location: LWSN B155
+- Credit Hours: 3.00
+- Online tools 
+	-- [https://purdue.brightspace.com/ Brightspace]: offical grades only 
+	-- [https://www.gradescope.com/courses/936650 Gradescope]: homework/lab assignments 
+	-- [https://campuswire.com/p/GF2E523EE Campuswire]: Announcements, discussion and Q&A
+	-- Lecture notes (below)
+- Practice study observation (PSO)
+	-- * No PSOs in the first week. *
+	-- Wed 16:30PM - 17:20PM, *ONLINE*, Shengqing Xia 
+	-- Thu 11:30AM - 12:20PM, HAAS 257, Shengqing Xia
+	-- Fri  9:30AM - 10:20AM, HAAS 257, Jingqi Huang
+- Office hours (Prof. Peng): Thur 13:30PM - 14:30PM  (or by appointment), [https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmY0ZTcwNjctYjYxZi00ODM5LWIzOTktNWNlNTAzMzAzMGYy%40thread.v2/0?context=%7b%22Tid%22%3a%224130bd39-7c53-419c-b1e5-8758d6d63f21%22%2c%22Oid%22%3a%225ada9c89-4ca9-4a4f-81d7-ee9ce9801655%22%7d Microsoft Teams] or DSAI 2142 (if you have access to DSAI)
+- *Spring break: March 17 - 22 (no lectures)*
+- *Distinguished Guest Lecture by [https://www-net.cs.umass.edu/personnel/kurose.html Prof. Jim Kurose]: April 3 *
+- *Midterm 1* (ch1 to ch3.4, in class): *4:30PM - 5:45PM Thur Feb 27*, LWSN B155
+- *Midterm 2* (ch3.5 to ch5, in class): *4:30PM - 5:45PM Thur 10*, LWSN B155
+- *Final* (cumulative, ch1 to ch7): *7:00PM - 9:00PM Wed May 7*, WTHR 172 
+
+== Lecture Notes (more to be added)
+- [./0-intro-cs422-sp25.pdf Course Introduction]([./0-intro-cs422-sp25.pptx slide]): Jan 14 
+- [./ch1-cs422-sp25.pdf Chapter 1]([./ch1-cs422-sp25.pptx slide]): Jan 14 - Jan 21 (Lab1 Due: *Jan 31*)
+- [./ch2-cs422-sp25.pdf Chapter 2]([./ch2-cs422-sp25.pptx slide]): Jan 21 - Feb 4 (Hw1 Due: *Feb 6*, Lab2 Due: *Feb 21*)
+- [./ch3-cs422-sp25.pdf Chapter 3]([./ch3-cs422-sp25.pptx slide]): Feb 6 - Feb 25 (Hw3 Due: *March 7*, Lab 3 Due: *March 21*)
+- [./ch4-cs422-sp25.pdf Chapter 4]([./ch4-cs422-sp25.pptx slide]): March 4 - March 11
+- [./ch5-cs422-sp25.pdf Chapter 5]([./ch5-cs422-sp25.pptx slide]): March 11 - March 27 (Hw4 Due: April 3)
+- *Distinguished Guest Lecture by Prof Jim Kurose: April 3*
+# - Mar 26  (Lab 4 Due: Apr 3, [hw4-sp24.pdf  Hw4] Due: Apr 5)
+- [./ch6-cs422-sp25.pdf Chapter 6]([./ch6-cs422-sp25.pptx slide]): April 1 - April 17  (Lab 4 Due: April 25, Hw5 Due: April 24)
+- [./ch7-cs422-sp25.pdf Chapter 7 ]([./ch7-cs422-sp25.pptx slide]): April 22 - April 29
+- [synthesis-cs422-sp25.pdf Putting them togeter] ([./synthesis-cs422-sp25.pptx slide]): April 29
+- [./review-final-cs422-sp25.pdf Review]: May 2
+
+== Contact US (cs422-ta@cs.purdue.edu)
+You are always welcome to contact us in person or online (at Campuswire). If you have questions about course materials, we encourage you to ask your questions online (which will be seen by other students). Of course, please feel free to ask questions before/after the class, at PSOs and via emails. 
+
+If you want to contact us via an email, we encourage you to use our mailing list ([mailto:cs422-ta@cs.purdue.edu cs422-ta@cs.purdue.edu]). If you send to this TA mailing list, both TAs and Prof Peng will receive the email.
+
+If you want to contact Prof Peng only, please send the email to chunyi AT purdue DOT edu. 
+
+== Course Description
+cs422 is an undergraduate-level course in Computer Networks at the Department of Computer Science at Purdue University. In this course, we will learn *why* and *how* to build the Internet, arguably the largest engineered system ever created by mankind. In particular, we will take a top-down approach to go through main network protocols (aka, TCP\/IP protocols). We will also use the Internet protocol stack to understand networking principles, the rational or trade-off behind today's Internet and ongoing efforts to innovate next-generation Internet. 
+
+
+== Textbook 
+- (*Required*) Computer Networking: A Top-Down Approach, 8E Edition, J. F. Kurose and K. W. Ross  (8th or 7th Edition should be fine)
+#- Recent papers for advanced topics 
+
+== Course Topics (tentative)
+- Overview (Chapter 1)
+- Application (Chapter 2)
+- Transport (Chapter 3)
+- Networking (Chapter 4 + Chapter 5)
+- Link (Chapter 6) 
+- Wireless (Chapter 7 plus extra materials)
+
+#- Part I (Basic): Chapter 1 - Chapter 6 
+#	-- Application
+#	-- Transport
+#	-- Network (Data Plane)
+#	-- Network (Control Plane)
+#	-- Link 
+#- Part II (Advanced): Chapter 7, 8 plus extra materials 
+#	-- Wireless and Mobile Networks 
+#	-- Network security 
+#	-- Emerging applications 
+
+#Note: the selection of topics and the order may change to accomodate assignments (we have not yet fnalized the set of homework/lab/bonus-project assignments).
+
+== Prerequisites
+- Operating Systems (CS354/CS503, socket programming), Algorithms (CS251 or CS580, e.g., dynamic programing)
+- Solid Programming in C and Linux (Unix)
+
+== Grading Policy
+- Homework: 20%
+- Labs: 32% 
+	-- (Up to 40% with bonus parts)
+- Exam: 48% 
+	-- Midterm 1: 12%
+	-- Midterm 2: 12%
+	-- Final: 24%
+
+== Course Policy 
+
+You need to obey course polices for all the courses in the department of Computer Science, Purdue University. Here, I higlhight some important ones.
+
+=== Attendance
+Students are expected to be present for every meeting of the classes in which they are enrolled. Only the instructor can excuse a student from a course requirement or responsibility. When conflicts or absences can be anticipated, such as for many University-sponsored activities and religious observations, the student should inform the instructor of the situation as far in advance as possible and plan to make up for missed work.
+
+=== Late Policy
+There is no partial credit for late assignments; you must submit by the deadline. However, each student is granted *three grace days* (24-hour period each) that can be used for any homework or lab assignment. The three days can be applied to a single assignment or one day can be applied to each of three assignments. Note that you need to notify TAs *before* you want to use late days. 
+
+=== Regrading
+If you feel that you have been unfairly graded on a lab assignment, homework or exam, you should petition the appropriate TA or Professor in writing *within the regrading window* of distribution of the graded work. After two weeks, NO regrade requests will be honored. For lab assignments, you are allowed to change a few lines of code if that makes your program work, but there will be a penalty per change.
+
+=== Academic Integrity
+You are expected to read and follow Purdue’s guide to academic integrity: [http://www.purdue.edu/purdue/about/integrity_statement.html the link]. To foster an open and collegial class environment, we are /vigorously/ opposed to academic dishonesty because it seriously detracts from the education of honest students. 
+
+* No ChatGPT or AI used in class*. Students are explicitly prohibited from using artificial intelligence tools including but not limited ChatGPT during this course. 
+
+It is permissible to discuss a GENERAL METHOD of solution with other students,
+or to make use of high-level reference materials in the library or online. If you 
+do this, you will be expected to *CLEARLY DISCLOSE* with whom you discussed
+the method of solution, or to cite the references used. Failure to do so
+will be considered cheating or plagiarism. The use of "method of solution"
+means a GENERAL discussion of technique or algorithm, such as one would
+reasonably expect to occur standing in front of a whiteboard, and precludes
+the detailed discussion of code or written assignments. 
+
+*Specifically, looking at another student's code on his/her computer monitor or copying code from an online source is NOT allowed.*
+
+*Using any code or copying any assignment from others or from an online source is strictly prohibited* without advance prior permission from the instructor. This includes but not limited to the use of code others have submitted in the past, or solutions found on the Internet.
+
+Unless otherwise explicitly specified, all written assignments or code
+that is submitted is to be *ENTIRELY* the student's *own* work. Moreover, all students work is their own. Students who do share their work with others
+are /as/ responsible for academic dishonesty as the student receiving
+the material. Students are not to show work to other students, in the class
+or outside. Students are responsible for the security of their work.
+
+# and should ensure that printed copies are not left in accessible places, and that file/directory permissions are set to be /unreadable/ to others (e.g. use "chmod -R 700 *" from your home directory. If you need assistance protecting your work, please contact your TAs. 
+
+
+Students who encourage others to cheat or plagiarize, or students who are
+aware of plagiarism or cheating and do not report it are also participating
+in academically dishonest behavior.
+
+
+Be aware that we will use a software tool called [http://theory.stanford.edu/~aiken/moss/ MOSS] to check for copying among submitted assignments. Additionally, the instructor and TA will be inspecting all submitted material to ensure honesty.
+
+
+The course policy is that *students who are found guilty of dishonesty will not only receive a zero for the work in question but also receive a severe grade penalty (at least double grades assigned to the work and even FAILURE in this course)*. Moreover, the Dean of Students will be notified for possible further action.
+
+
+=== Emergency 
+In the event of a major campus emergency, course requirements, deadlines and grading percentages are subject to change that may be necessitated by a revised semester calendar or other circumstances. If an emergency occurs, you can consult the CS web page for details.
+
+In case of any personal emergency, please do contact Prof Peng as soon as you can. 
+
+
+=== Students with Disabilities 
+Purdue University is required to respond to the needs of students with disabilities as outlined in both the Rehabilitation Act of 1973 and the Americans with Disabilities Act of 1990 through the provision of auxiliary aids and services that allow a student with a disability to access and participate fully in the programs, services, and activities at Purdue University. If you have a disability that requires special academic accommodation, please make an appointment to speak with the instructor within the first three (3) weeks of the semester in order to discuss any adjustments. It is the student’s responsibility to notify the [http://www.purdue.edu/drc Disability Resource Center] of an impairment\/condition that may require accommodations and\/or classroom modifications. We cannot arrange special accommodations without confirmation from the Disability Resource Center.
+
+#Purdue University is required to respond to the needs of students with disabilities as outlined in both the Rehabilitation Act of 1973 and the Americans with Disabilities Act of 1990 through the provision of auxiliary aids and services that allow a student with a disability to access and participate fully in the programs, services, and activities at Purdue University. If you have a disability that requires special academic accommodation, please make an appointment to speak with the instructor within the first three (3) weeks of the semester in order to discuss any adjustments. It is the student’s responsibility to notify the [http://www.purdue.edu/drc Disability Resource Center] of an impairment/condition that may require accommodations and/or classroom modifications. We cannot arrange special accommodations without confirmation from the Disability Resource Center.
+
+
+
+== Counseling 
+If you are experiencing stress or personal problems, Purdue provides counseling services through the Purdue CAPS Center. Please see [https://www.purdue.edu/CAPS/ CAPS] for more details.
+
+
+
+
+
+
+
+
+
+
